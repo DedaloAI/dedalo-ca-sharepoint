@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Dedalo AI Carbon Analytics",
+    "id": "f26bb436-c6e9-40be-ad81-3ba5a6668768",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Dedalo AI s.r.l.",
+      "websiteUrl": "https://www.dedalo.ai",
+      "privacyUrl": "https://dedalo.ai/?p=privacy",
+      "termsOfUseUrl": "https://dedalo.ai/?p=privacy",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Measure the carbon footprint of your website with Dedalo AI Carbon Analytics."
+      },
+      "screenshotPaths": [
+        "assets/ca.png"
+      ],
+      "categories": [
+       "Data + analytics"
+      ]
+    },
+    "iconPath": "assets/icon.png",
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "95b64146-6c4c-44a7-803d-e9fff2728af8",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/dedalo-ai-carbon-analytics.sppkg"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://{tenantDomain}/SitePages/myPage.aspx",
+      "customActions": {
+        "b6e9b18e-568d-43ea-b5cd-398100f337fb": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "projectId": "xxxxx"
+          }
+        }
+      }
+    },
+    "dedaloAiCarbonAnalytics": {
+      "pageUrl": "https://{tenantDomain}/SitePages/myPage.aspx",
+      "customActions": {
+        "b6e9b18e-568d-43ea-b5cd-398100f337fb": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "projectId": "xxxxx"
+          }
+        }
+      }
+    }
+  }
+}

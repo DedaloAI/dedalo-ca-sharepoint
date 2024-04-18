@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="DedaloAiCarbonAnalytics"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="b6e9b18e-568d-43ea-b5cd-398100f337fb"
+        ClientSideComponentProperties="{&quot;projectId&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

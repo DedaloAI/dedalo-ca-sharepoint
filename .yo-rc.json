@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "dedalo-ai-carbon-analytics",
+    "libraryId": "f26bb436-c6e9-40be-ad81-3ba5a6668768",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "dedalo-ai-carbon-analytics",
+    "solutionShortDescription": "dedalo-ai-carbon-analytics description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

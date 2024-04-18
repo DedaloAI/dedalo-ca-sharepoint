@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dedalo-ai-carbon-analytics-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/dedaloAiCarbonAnalytics/DedaloAiCarbonAnalyticsApplicationCustomizer.js",
+          "manifest": "./src/extensions/dedaloAiCarbonAnalytics/DedaloAiCarbonAnalyticsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DedaloAiCarbonAnalyticsApplicationCustomizerStrings": "lib/extensions/dedaloAiCarbonAnalytics/loc/{locale}.js"
+  }
+}
